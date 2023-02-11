@@ -10,7 +10,8 @@ document.getElementById('main-text').style.color = 'pink';
 
 })
 document.getElementById('secound-button').addEventListener('click', function(){
-    document.getElementById('main-text').innerText = 'Sorry I Have A Boyfriend';
+    document.getElementById('main-text').innerText = "Why Don't You Love Me? ";
+
     document.body.style.backgroundImage = "url('../images/sad.jpg')";
     document.body.style.backgroundRepeat = "no-repeat";
     document.body.style.backgroundPosition = 'top' ;
